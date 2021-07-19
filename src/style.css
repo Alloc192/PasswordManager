@@ -1,0 +1,44 @@
+* {
+    background-color: #1B2224;
+    color: #E6E6E6;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Noto Sans Regular";
+}
+
+QLineEdit {
+    background-color: #222B2E;
+    border: 1px solid #151b1b;
+    font-weight: 500;
+    font-family: "Noto Sans Regular";
+}
+
+QLineEdit:active {
+    border: 1px solid #2eb398;
+}
+
+QTreeView {
+    background-color: #222B2E;
+    alternate-background-color: #263034;
+    selection-color: #E6E6E6;
+    selection-background-color: #2eb398;
+}
+
+QTreeView::item {
+    min-height: 30;
+}
+
+QGroupBox {
+    border: 1px solid #151b1b;
+}
+
+QHeaderView {
+    background-color: #263034;
+    min-height: 30;
+}
+
+QPushButton {
+    background-color: #263034;
+    border: 1px solid #151b1b;
+    min-height: 30;
+}
