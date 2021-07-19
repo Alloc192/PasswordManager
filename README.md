@@ -1,2 +1,2 @@
 # PasswordManager
-Very simple password manager
+Very simple password manager. Just for fun
